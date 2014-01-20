@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F935349188C75540015999B /* reload_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F935348188C75540015999B /* reload_icon.png */; };
+		5F93534B188C95030015999B /* go_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F93534A188C95030015999B /* go_icon.png */; };
+		5F93534E188C9D4E0015999B /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F93534C188C9D4E0015999B /* back_icon.png */; };
+		5F93534F188C9D4E0015999B /* next_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F93534D188C9D4E0015999B /* next_icon.png */; };
 		916D8D01188AECF600150329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916D8D00188AECF600150329 /* Foundation.framework */; };
 		916D8D03188AECF600150329 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916D8D02188AECF600150329 /* CoreGraphics.framework */; };
 		916D8D05188AECF600150329 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916D8D04188AECF600150329 /* UIKit.framework */; };
@@ -21,7 +25,6 @@
 		916D8D26188AECF600150329 /* webrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D8D25188AECF600150329 /* webrowserTests.m */; };
 		916D8D35188AEEDF00150329 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D8D33188AEEDF00150329 /* WebViewController.m */; };
 		916D8D36188AEEDF00150329 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 916D8D34188AEEDF00150329 /* WebViewController.xib */; };
-		916D8D42188B04F800150329 /* reload_icon 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D8D41188B04F800150329 /* reload_icon 4.png */; };
 		916D8D44188B060C00150329 /* cancel_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 916D8D43188B060C00150329 /* cancel_icon.png */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F935348188C75540015999B /* reload_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload_icon.png; sourceTree = "<group>"; };
+		5F93534A188C95030015999B /* go_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_icon.png; sourceTree = "<group>"; };
+		5F93534C188C9D4E0015999B /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
+		5F93534D188C9D4E0015999B /* next_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next_icon.png; sourceTree = "<group>"; };
 		916D8CFD188AECF600150329 /* webrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		916D8D00188AECF600150329 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		916D8D02188AECF600150329 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,7 +62,6 @@
 		916D8D32188AEEDF00150329 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		916D8D33188AEEDF00150329 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		916D8D34188AEEDF00150329 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
-		916D8D41188B04F800150329 /* reload_icon 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reload_icon 4.png"; sourceTree = "<group>"; };
 		916D8D43188B060C00150329 /* cancel_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				916D8D43188B060C00150329 /* cancel_icon.png */,
-				916D8D41188B04F800150329 /* reload_icon 4.png */,
+				5F935348188C75540015999B /* reload_icon.png */,
+				5F93534A188C95030015999B /* go_icon.png */,
+				5F93534C188C9D4E0015999B /* back_icon.png */,
+				5F93534D188C9D4E0015999B /* next_icon.png */,
 				916D8D31188AED1E00150329 /* controller */,
 				916D8D30188AED1600150329 /* view */,
 				916D8D2F188AED0B00150329 /* model */,
@@ -258,10 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				916D8D36188AEEDF00150329 /* WebViewController.xib in Resources */,
+				5F93534E188C9D4E0015999B /* back_icon.png in Resources */,
 				916D8D0B188AECF600150329 /* InfoPlist.strings in Resources */,
+				5F93534B188C95030015999B /* go_icon.png in Resources */,
+				5F935349188C75540015999B /* reload_icon.png in Resources */,
 				916D8D13188AECF600150329 /* Images.xcassets in Resources */,
-				916D8D42188B04F800150329 /* reload_icon 4.png in Resources */,
 				916D8D44188B060C00150329 /* cancel_icon.png in Resources */,
+				5F93534F188C9D4E0015999B /* next_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +495,7 @@
 				916D8D2B188AECF600150329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		916D8D2C188AECF600150329 /* Build configuration list for PBXNativeTarget "webrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +504,7 @@
 				916D8D2E188AECF600150329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
